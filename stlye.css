@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 /* --- start of CSS reset --- */
 
@@ -38,16 +39,21 @@ select {
   border-radius: 0;
 }
 
-/* --- end of CSS reset --- */```
+/* --- end of CSS reset --- */
+
+
+
+
+
 
 html{
     height: 100%;}
 
 
-body{
+.body1{
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    min-height: 100%;
     background-image: url('./img/háttér1.avif');
     color: white;
 }
@@ -71,11 +77,12 @@ body{
 .enter:hover{
     color: lightblue;
 }
+
+
 footer{
+
     height: 150px;
-    background-color: rgba(1,1,1, .3);
-    position: relative;
-    bottom: 0;
+    background-color: rgba(46, 253, 253, 0.3);
     color: white;
     width: 100%;
     display: flex;
@@ -83,11 +90,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
- /*    margin-top: auto;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    flex-direction: row; */
+    margin-top: auto;
 }
 
 .lablec-elem{
@@ -105,44 +108,57 @@ li{
 }
 
 nav{
-  position: fixed;
-  top: 0;
   padding-top: 30px;
   padding-left: 40px;
   padding-right: 40px;
   font-size: 20px;
   height: 150px;
   width: 100%;
-  background-color: rgba(1,1,1, .3);
+  background-color: rgba(1,1,1, .8);
+  
+  
 }
 
-.main{
+.body2{
   background-image: url('./img/háttér2.avif');
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 20px;
+  color: white;
 }
 
 nav li:hover{
   color: lightblue;
-  
 }
 
 .name-2{
   display: flex;
   justify-content: center;
-  padding-top: 40px;
-  font-size: 30px;
+  padding-top: 30px;
+  
+  font-size: 40px;
+  font-family: 'IBM Plex Sans';
+}
+.name-2:hover{
+  color: lightblue;
 }
 
-/* .parent {
-  margin: 170px;
+header{
+  position: sticky;
+  top: 0;
+  margin-bottom: 80px;
+
+  
+}
+
+.parent {
+  font-family: 'Open Sans';
+  max-width:60% ;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
   }
   
   .div1 { grid-area: 1 / 1 / 2 / 2; }
@@ -162,28 +178,39 @@ nav li:hover{
     border-radius: 50%;
   }
 
-  .parent img:first-child{
-    margin-top: 170px;
-  } */
+  .div9{
+    margin-bottom: 60px;
+  }
+  .container{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 110px;
+  }
 
+
+  .container img{
+    border-radius: 50%;
+  }
+
+  .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
-.container{
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  
-}
-.container img{
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-}
-/* div{
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-left: 40px;
-  margin-right: 40px;
-} */
+  .box1 img{
+    width: 300px;
+    height: 300px;
+  }
+  .box2{
+    min-height: 100%;
+    margin-left: 40px;
+  }
+
+  .box2 h2{
+    margin-bottom:30px ;
+  }
