@@ -114,13 +114,13 @@ nav{
   font-size: 20px;
   height: 150px;
   width: 100%;
-  background-color: rgba(1,1,1, .8);
+  background-color: rgb(66, 9, 158, .8);
   
   
 }
 
 .body2{
-  background-image: url('./img/hatter2.avif');
+  background-image: url('./img/luke-chesser-3rWagdKBF7U-unsplash.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -219,3 +219,4 @@ header{
   .box2 h2{
     margin-bottom:30px ;
   }
+
