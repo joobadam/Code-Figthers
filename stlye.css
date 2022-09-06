@@ -54,7 +54,7 @@ html{
     display: flex;
     flex-direction: column;
     min-height: 100%;
-    background-image: url('./img/háttér1.avif');
+    background-image: url('./img/hatter1.avif');
     color: white;
 }
 
@@ -120,7 +120,7 @@ nav{
 }
 
 .body2{
-  background-image: url('./img/háttér2.avif');
+  background-image: url('./img/hatter2.avif');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
