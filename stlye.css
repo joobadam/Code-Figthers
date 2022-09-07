@@ -185,13 +185,14 @@ header{
     margin-bottom: 60px;
   }
   .container{
-    max-width: 80%;
+    max-width: 80%; 
+    height: 100vh;
     margin: auto;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: center;
-    margin-bottom: 110px;
+    
   }
 
 
